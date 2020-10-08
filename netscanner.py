@@ -35,7 +35,7 @@ try:
         elif arg in ("-t","--timeout"):
             time_out = int(opt)
         elif arg in ("-h", "--help"):
-            print("asdasdasd")
+            print(long_options)
 
         else:
             print("Argumento inválido.")
